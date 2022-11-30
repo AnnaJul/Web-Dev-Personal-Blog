@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ana WebSite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href=""><img src="icons/icons8_triskelion.ico" alt="icono" /></a>
+      <span id="btn" onclick="testingThis()">Ann Artlover</span>
+      <div class="nav-links">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">ART</a></li>
+          <li><a href="">PODCAST</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="text-box">
+      <h1>Ann's Corner <em>of ART</em></h1>
+      <br>
+      <h2>
+        Hey! You're finally at home! We have been wating for you all this time!
+      </h2> <br> <br>
+      <a href="" class="hero-btn">Visit Us To Know More</a>
+    </div>
+  </header>
+
+  <!--------------------------------What we offer-------------------------------->
+  <section class="offerings">
+    <h1>Wellcome to <em>the FAMILY!</em></h1>
+    <span class="little_quote">These are our principals pages in the website. Feel free to choose
+      whatever you heart desires.</span>
+    <div class="row">
+      <div class="col">
+        <img src="Images/pexels-olya-kobruseva-5451497.jpg" alt="Foto de Olya Kobruseva en Pexels" />
+        <div class="layer">
+          <h3>ART GALLERY</h3>
+        </div>
+      </div>
+
+      <div class="col" onclick={handleClicks()}>
+        <img src="Images/pexels-cottonbro-6686432.jpg" alt="Foto de Tirachard Kumtanom en Pexels" />
+        <div class="layer">
+          <h3>PODCAST</h3>
+        </div>
+      </div>
+
+      <div class="col">
+        <img src="Images/pexels-andrea-davis-3653849.jpg" alt="Foto de Andrea Davis en Pexels" />
+        <div class="layer">
+          <h3>BLOG POST</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------------------About me-------------------------------------->
+  <section class="my_information">
+    <div class="row">
+      <div class="fotoPersonal">
+        <a href="https://www.pexels.com/es-es/foto/mujer-telefono-inteligente-escritorio-boligrafo-4491491/"><img
+            src="Images/me.jpg" alt="foto personal" /></a>
+      </div>
+
+      <div class="text-box_personal">
+        <h2>Why Ann Artlover?</h2>
+        <p id="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse in
+          dolorem delectus magni ipsa modi quam. Modi minus cumque quae.
+          Soluta ipsam eum assumenda nobis ea repellendus nesciunt, voluptatem
+          magnam! <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+          illo, quia, qui vero optio molestias voluptatem explicabo et hic
+          consequuntur magnam quod iure corporis. Autem illo fugiat laudantium
+          est molestias.
+        </p>
+        <a href="./podcast_section.html" class="hero-btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!------------- Prueba de formulario para la CP: quizá se vuelva un newsletter pop up -------------->
+
+
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

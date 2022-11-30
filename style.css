@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  min-width: 100vh;
+  width: 100%;
+  padding-bottom: 650px;
+  background-image: linear-gradient(
+      rgba(110, 102, 94, 0.281),
+      rgba(19, 18, 18, 0.281)
+    ),
+    url(Images/pexels-emre-can-acer-2079451.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  padding: 1% 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 50px;
+}
+span {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 550;
+  padding-top: 0;
+  margin-left: 10px;
+}
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  list-style: none;
+  background: #ffddd6;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+.text-box {
+  width: 90%;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 62px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.text-box h2 {
+  color: rgb(49, 30, 0);
+  background-color: rgb(255, 159, 4);
+  margin: 0;
+}
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 3px solid white;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 10px 32px;
+  font-size: 20px;
+  font-family: sans-serif;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  border: 3px solid rgb(49, 30, 0);
+  background: rgb(49, 30, 0);
+  transition: 1s;
+}
+
+/* -----------------------GENERALS STYLES----------------------- */
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.little_quote {
+  font-size: 14px;
+  font-weight: 50;
+  color: #777;
+}
+
+/* -----------------------offerings----------------------- */
+.offerings {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.offerings h1 {
+  text-align: center;
+  font-weight: 600;
+  margin: 30px 0px;
+  font-size: 36px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 90px;
+}
+.col img {
+  width: 100%;
+}
+.layer {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+.layer:hover {
+  background: #ffddd694;
+}
+.layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: rgb(97, 52, 15);
+  background-color: #ffddd694;
+  padding: 10px 5px;
+  font-size: 26px;
+  bottom: 49%;
+  left: 90%;
+  transform: translateX(-90%);
+  position: absolute;
+  transition: 0.5s;
+}
+.layer:hover h3 {
+  background-color: transparent;
+}
+
+/* -----------------about me------------------ */
+.my_information {
+  width: 60%;
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: justify;
+}
+.my_information h2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+}
+.my_information p {
+  font-size: 18px;
+  font-weight: 50;
+  color: #777;
+  margin-left: 40px;
+}
+.fotoPersonal img {
+  width: 300px;
+  border-radius: 50%;
+}
+.text-box_personal a.hero-btn {
+  color: rgb(20, 12, 1);
+  font-weight: 900;
+  border: 2px solid rgb(14, 8, 1);
+  margin-top: 20px;
+  margin-left: 390px;
+}
+.text-box_personal a.hero-btn:hover {
+  color: white;
+  border: 2px solid rgb(49, 30, 0);
+  background: rgb(49, 30, 0);
+  transition: 1s;
+}
+
+/* ---------------------- NEWSLETTER -------------------- */
