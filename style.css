@@ -4,6 +4,7 @@
 }
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 header {
@@ -103,6 +104,25 @@ span {
   border: 3px solid rgb(49, 30, 0);
   background: rgb(49, 30, 0);
   transition: 1s;
+}
+/* ---------------------- SEARCH ENGINES -------------------- */
+#podcast_search {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.764);
+  border: none;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 10;
+  font-weight: 900;
+}
+::placeholder {
+  color: rgba(33, 22, 9, 0.418);
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 25px;
 }
 
 /* -----------------------GENERALS STYLES----------------------- */
@@ -207,5 +227,3 @@ span {
   background: rgb(49, 30, 0);
   transition: 1s;
 }
-
-/* ---------------------- NEWSLETTER -------------------- */

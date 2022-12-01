@@ -12,14 +12,14 @@
 <body>
   <header>
     <nav>
-      <a href=""><img src="icons/icons8_triskelion.ico" alt="icono" /></a>
-      <span id="btn" onclick="testingThis()">Ann Artlover</span>
+      <a onclick={home_section()}><img src="icons/icons8_triskelion.ico" alt="icono" /></a>
+      <span id="btn">Ann Artlover</span>
       <div class="nav-links">
         <ul>
-          <li><a href="">HOME</a></li>
+          <li><a onclick={home_section()}>HOME</a></li>
           <li><a href="">ABOUT</a></li>
           <li><a href="">ART</a></li>
-          <li><a href="">PODCAST</a></li>
+          <li><a onclick={podcast_section()}>PODCAST</a></li>
           <li><a href="">BLOG</a></li>
           <li><a href="">CONTACT</a></li>
         </ul>
@@ -48,7 +48,7 @@
         </div>
       </div>
 
-      <div class="col" onclick={handleClicks()}>
+      <div class="col" onclick={podcast_section()}>
         <img src="Images/pexels-cottonbro-6686432.jpg" alt="Foto de Tirachard Kumtanom en Pexels" />
         <div class="layer">
           <h3>PODCAST</h3>

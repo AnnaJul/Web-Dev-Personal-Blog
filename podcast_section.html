@@ -12,14 +12,14 @@
 <body>
     <header>
         <nav>
-            <a href=""><img src="icons/icons8_triskelion.ico" alt="icono" /></a>
+            <a onclick={home_section()}><img src="icons/icons8_triskelion.ico" alt="icono" /></a>
             <span>Ann Artlover</span>
             <div class="nav-links">
                 <ul>
-                    <li><a href="">HOME</a></li>
+                    <li><a onclick={home_section()}>HOME</a></li>
                     <li><a href="">ABOUT</a></li>
                     <li><a href="">ART</a></li>
-                    <li><a href="">PODCAST</a></li>
+                    <li><a onclick={podcast_section()}>PODCAST</a></li>
                     <li><a href="">BLOG</a></li>
                     <li><a href="">CONTACT</a></li>
                 </ul>
@@ -28,7 +28,16 @@
         <div class="text-box">
             <h1>People Got <em>Stories</em></h1> <br>
             <h2> <em>Thousand</em> Lives together</h2>
+
+            <br>
+
+            <div class="search_engine">
+                <input type="search" name="podcast_search" id="podcast_search" placeholder="type a podcast name here">
+
+            </div>
+
         </div>
+
     </header>
 
     <script src="index.js"></script>
